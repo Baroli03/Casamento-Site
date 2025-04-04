@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  nav {
+    height: 200px;
+    width: 100%;
+    max-width: 1980px;
+    background-color: pink;
+    margin: 0 auto;
+    min-height: 200px
+    
+  }
+
+
+  #inicio {
+    height: 800px;
+    width: 100%;
+    max-width: 1980px;
+    margin: 0 auto;
+    background-color: aquamarine;
+  
+
+  }
+
+  #Fotoinicio {
+    border: 10px solid rgb(218, 213, 213);
+    margin-top: 30px;
+    margin-left: 10%;
+    display: inline-block;
+    height: 700px;
+    min-height:700;
+    min-width: 35%;
+    width: 35%;
+    background-color: antiquewhite;
+  
+  }
+
+
+  main {
+    height: 6000px;
+    width: 100%;
+    max-width: 1980px;
+    background-color: aquamarine;
+    margin: 0 auto;
+  }
+
+ 
+  #primeira_sessao{
+    padding-top: 100px;
+    height: 2000px;
+    width: 80%;
+    max-width: 1980px;
+    background-color: rgb(182, 106, 55);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+
+  }
+
+  #cronograma {
+    margin-top: 30px;
+    display: block;
+    height: 1500px;
+    width: 80%;
+    max-width: 1980px;
+    background-color: rgb(182, 106, 55);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+  footer {
+    height: 800px;
+    width: 100%;
+    max-width: 1980px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+  }
+  
+  /* .fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1s ease-in-out;
+    text-align: center;
+  }
+  
+  .fade-in img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Quando a classe 'active' é adicionada */
+  /* .fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+   */
