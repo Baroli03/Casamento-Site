@@ -1,4 +1,6 @@
-const targets = document.querySelectorAll('.fade-in');
+console.log("Script carregado!");
+
+const elementos = document.querySelectorAll('.aparecer');
 
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
@@ -10,6 +12,6 @@ const observer = new IntersectionObserver(entries => {
   threshold: 0.1
 });
 
-targets.forEach(target => {
-  observer.observe(target);
+elementos.forEach(el => {
+  observer.observe(el);
 });

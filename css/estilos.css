@@ -25,6 +25,11 @@ body {
     top: -130px;
     
   }
+
+  main {
+  height:4000px ;
+  }
+
   main h1{
     text-align: center;
     font-size: 100px;
@@ -91,27 +96,96 @@ body {
     font-size: 25px;
     text-decoration: underline;
   }
-
-
+  #imagens {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 20px;
+  }
+  #imagens img {
+    display: inline-block;
+    margin: 10px;
+    width: 400px;
+    height: 400px; 
+    background-color: #204d3e;
+  }
 
   
   
-  /* .fade-in {
+  .aparecer {
     opacity: 0;
-    transform: translateY(30px);
-    transition: all 1s ease-in-out;
+    transform: translateY(50px);
     text-align: center;
   }
-  
-  .fade-in img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  /* Quando a classe 'active' é adicionada */
-  /* .fade-in.active {
+
+
+  .aparecer.active {
     opacity: 1;
     transform: translateY(0);
   }
-   */
+
+
+  #sobreocasal {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  #sobreocasal h2{
+    color: #204d3e;;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+
+  }
+
+  #sobreocasal img{
+    margin-top: 20px;
+    height: auto;
+    width:auto;
+  }
+
+  #Ocasamento {
+    margin-top: 100px;
+    display: block;
+    width: 100%;
+  }
+
+  #Ocasamento img{
+    margin-top: 300px;
+    margin-left: 26%;
+    height: 100%;
+  }
+  #Ocasamento h3 {
+    text-align: center;
+    color: #204d3e;;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+
+  }
+
+  .titulo {
+    color: #204d3e;;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+  }
+
+
+  #chacara, #acomodacoes, #traje {
+    text-align: center;
+    display: inline-block;
+    height: auto;
+  }
+
+  #chacara {
+    margin-left: 28%;
+  }
+
+  #acomodacoes {
+    margin-left: 8%;
+  }
+
+  #traje {
+    margin-left: 8%;
+  }
