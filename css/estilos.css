@@ -27,7 +27,10 @@ body {
   }
 
   main {
-  height:4000px ;
+  height:8000px ;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
   }
 
   main h1{
@@ -128,6 +131,7 @@ body {
   #sobreocasal {
     margin-top: 100px;
     text-align: center;
+    margin-left: 20px;
   }
 
   #sobreocasal h2{
@@ -139,19 +143,24 @@ body {
   }
 
   #sobreocasal img{
-    margin-top: 20px;
+    margin-left: 28px;
+    margin-top: 220px;
     height: auto;
     width:auto;
   }
 
-  #Ocasamento {
+  #sobreocasal p {
     margin-top: 100px;
+  }
+
+  #Ocasamento {
+    margin-top: 300px;
     display: block;
     width: 100%;
   }
 
   #Ocasamento img{
-    margin-top: 300px;
+    margin-top: 400px;
     margin-left: 26%;
     height: 100%;
   }
@@ -163,6 +172,31 @@ body {
     font-size: 60px;
 
   }
+  #imgscasamento {
+    text-align: center
+  }
+  #imgscasamento{
+    margin-right: 150px;
+  }
+  #containerimg {
+    display: inline-block;
+    margin: 0 100px; 
+  
+  }
+
+  #imginfo {
+    height: 350px;
+    width: 330px;
+    max-height:350px;
+    object-fit: cover;
+    object-position: bottom;
+    clip-path: circle(65%);
+    border-radius: 12px;
+  }
+  #informacoes{
+    text-align: center;
+    margin-right: 40px;
+  }
 
   .titulo {
     color: #204d3e;;
@@ -173,19 +207,169 @@ body {
 
 
   #chacara, #acomodacoes, #traje {
-    text-align: center;
     display: inline-block;
     height: auto;
+    margin: 0 155px;
+    vertical-align: top;
+    margin-top: 10px;
+    text-align: center;
+    color: #204d3e;
+  }
+  #iconmap, #iconhotel,#icontraje {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    max-height: 200px;
+    margin: 0 180px;
+    margin-top: 0px;
+    vertical-align: top;
   }
 
   #chacara {
-    margin-left: 28%;
+    margin-right: 110px;
+    margin-left: 210px;
+  }
+  #traje{
+    margin-left: 120px;
   }
 
-  #acomodacoes {
-    margin-left: 8%;
+  #icontraje {
+    margin-top: 40px;
+    margin-right: 290px;
+    margin-left: 150px;
+  }
+  #iconmap{
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right:130px;
+  }
+  #iconhotel {
+    margin-left: 230px;
   }
 
-  #traje {
-    margin-left: 8%;
+  #icons {
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    margin-right: 20px;
   }
+  #icons img {
+    margin-top: 50px;
+    padding-top: 0;
+
+  }
+
+
+  #agenda-eventos {
+    display: flex;
+    justify-content: center;
+    gap: 300px; 
+    margin: 200px auto 0 auto; 
+    max-width: 80%; 
+    text-align: left;
+  }
+
+  #agenda, #horarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .separar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 2px;
+    background-color:#204d3e;
+    width: 650px;
+  } 
+
+  .tamanho-normal {
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: #204d3e;
+
+  }
+  .tamanho-normal1 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: #204d3e;
+    position: relative;
+    right: -80px;
+    top: -80px;
+
+  }
+
+  #tamanho-menor {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400; 
+    font-size: 80px;
+    position: relative;
+    color: #204d3e;
+  }
+
+  .informando {
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #204d3e;
+    margin-left: 40px;
+  }
+
+  #figuras {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+    margin: 45px auto; 
+  }
+
+#figuras img{
+  width: 150px;
+  height: 150px;
+  margin-top: 200px;
+  
+
+}
+.menor {
+  width: 250px;
+  height: 250px;
+  min-height: 250px;
+  min-width: 250px;
+  position: relative;
+  bottom: 40px;
+}
+figure {
+  display: inline-block;
+}
+
+#perguntas-frequentes {
+  margin-top: 200px;
+  text-align: center;
+}
+
+
+#perguntas-frequentes h4 {
+  font-family: 'Tenor Sans', sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  color: #204d3e;
+
+}
+
+#perguntas-frequentes .pergunta {
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #204d3e;
+}
+
+#perguntas-frequentes .resposta {
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #204d3e;
+}
