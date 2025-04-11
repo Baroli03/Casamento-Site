@@ -2,7 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tenor+Sans&display=swap');
 
-body {
+  .tenor {
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400; 
+    color: #204d3e;
+  }
+
+  .Great-Vibes  {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    color: #204d3e;
+  }
+
+  body {
     margin: 0;
     padding: 0;
     
@@ -36,35 +48,21 @@ body {
   main h1{
     text-align: center;
     font-size: 100px;
-    color: #204d3e;
   }
-
-  #tamanho1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-  }
-  #tamanho2 {
-    font-family: 'Great Vibes', cursive;
-    font-weight: 400; 
+  #and {
     font-size: 80px;
     position: relative;
     top: -20px;
     right: -10px;
-    
   }
 
-  #letra {
-    font-family: 'Great Vibes', cursive;
-    font-weight: 400; 
+  .inicial {
     font-size: 120px;
   }
   
   main p{
-    font-family: 'Tenor Sans', sans-serif;
-    font-weight: 400; 
     font-size: 20px;
     text-align: center;
-    color: #204d3e;
   }
 
   main #local p{
@@ -94,8 +92,6 @@ body {
     margin-left: 30px;
   }
   #rsvp p{
-    font-family: 'Tenor Sans', sans-serif;
-    font-weight: 400;
     font-size: 25px;
     text-decoration: underline;
   }
@@ -135,9 +131,6 @@ body {
   }
 
   #sobreocasal h2{
-    color: #204d3e;;
-    font-family: 'Tenor Sans', sans-serif;
-    font-weight: 400;
     font-size: 60px;
 
   }
@@ -159,16 +152,13 @@ body {
     width: 100%;
   }
 
-  #Ocasamento img{
+ #Ocasamento img{
     margin-top: 400px;
     margin-left: 26%;
     height: 100%;
   }
   #Ocasamento h3 {
     text-align: center;
-    color: #204d3e;;
-    font-family: 'Tenor Sans', sans-serif;
-    font-weight: 400;
     font-size: 60px;
 
   }
@@ -199,9 +189,6 @@ body {
   }
 
   .titulo {
-    color: #204d3e;;
-    font-family: 'Tenor Sans', sans-serif;
-    font-weight: 400;
     font-size: 40px;
   }
 
@@ -213,7 +200,6 @@ body {
     vertical-align: top;
     margin-top: 10px;
     text-align: center;
-    color: #204d3e;
   }
   #iconmap, #iconhotel,#icontraje {
     display: inline-block;
@@ -286,17 +272,11 @@ body {
   } 
 
   .tamanho-normal {
-    font-family: 'Tenor Sans', sans-serif;
-    font-weight: 400;
     font-size: 80px;
-    color: #204d3e;
 
   }
   .tamanho-normal1 {
-    font-family: 'Tenor Sans', sans-serif;
-    font-weight: 400;
     font-size: 80px;
-    color: #204d3e;
     position: relative;
     right: -80px;
     top: -80px;
@@ -304,18 +284,12 @@ body {
   }
 
   #tamanho-menor {
-    font-family: 'Great Vibes', cursive;
-    font-weight: 400; 
     font-size: 80px;
     position: relative;
-    color: #204d3e;
   }
 
   .informando {
-    font-family: 'Tenor Sans', sans-serif;
-    font-weight: 400;
     font-size: 40px;
-    color: #204d3e;
     margin-left: 40px;
   }
 
@@ -353,23 +327,51 @@ figure {
 
 
 #perguntas-frequentes h4 {
-  font-family: 'Tenor Sans', sans-serif;
-  font-weight: 400;
   font-size: 70px;
-  color: #204d3e;
 
 }
 
 #perguntas-frequentes .pergunta {
-    font-family: 'Tenor Sans', sans-serif;
-    font-weight: 400;
     font-size: 50px;
-    color: #204d3e;
+
 }
 
 #perguntas-frequentes .resposta {
-    font-family: 'Tenor Sans', sans-serif;
-    font-weight: 400;
     font-size: 20px;
-    color: #204d3e;
+}
+
+#lista-presentes {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 100px;
+}
+
+
+/* Telas médias/pequenas: entre 768px e 1499px */
+@media screen and (min-width: 768px) and (max-width: 1499px) {
+  .container {
+    font-size: 16px;
+  }
+
+  #sobreocasal img {
+    margin-left: 0px;
+  }
+
+} 
+
+/* Celulares: abaixo de 768px */
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .menu {
+    display: none; /* exemplo: esconder menu lateral */
+  }
+
+  .mobile-menu {
+    display: block;
+  }
 }
