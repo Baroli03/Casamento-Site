@@ -122,7 +122,6 @@ foreach ($itens_extra as $item) {
 
 
 
-<!-- Login ou saudação -->
  <section id="Login">
 <?php if (!isset($_SESSION['usuario'])): ?>
     <div id="logar">
@@ -148,7 +147,7 @@ foreach ($itens_extra as $item) {
 
 </section>
 <h2 id="descricoes" class ="titulo tenor">Escolha um presente:</h2>
-<!-- Seleção -->
+
 <form method="POST">
     <select name="presente" required onchange="this.form.submit()">
         <option value="">-- Selecione --</option>
@@ -167,7 +166,6 @@ foreach ($itens_extra as $item) {
     </select>
 </form>
 
-<!-- Adicionar novo -->
 <?php if ($presente === "adicionar-novo-item"): ?>
     <hr>
     <?php if (isset($_SESSION['usuario'])): ?>
@@ -183,7 +181,6 @@ foreach ($itens_extra as $item) {
     <?php endif; ?>
 <?php endif; ?>
 
-<!-- Exibir detalhes do presente -->
 <?php if ($presente && $presente !== "adicionar-novo-item"): ?>
     <hr>
     <?php if ($item_detalhes): ?>
