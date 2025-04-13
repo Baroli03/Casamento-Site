@@ -165,80 +165,83 @@
   #imgscasamento {
     text-align: center
   }
-  #imgscasamento{
-    margin-right: 150px;
-  }
+
   #containerimg {
     display: inline-block;
-    margin: 0 100px; 
+    margin: 0 100px;
+    margin-left: 20px;
   
   }
 
   #imginfo {
-    height: 350px;
-    width: 330px;
-    max-height:350px;
+    height: 310px;
+    width: 290px;
+    max-height:310px;
     object-fit: cover;
     object-position: bottom;
     clip-path: circle(65%);
-    border-radius: 12px;
   }
   #informacoes{
     text-align: center;
-    margin-right: 40px;
   }
 
   .titulo {
     font-size: 40px;
   }
 
+  #imgscasamento {
+    margin-right: 4px;
+    margin-left: 0px;
+  }
 
+
+  /* Referente ao texto da imagem  */
   #chacara, #acomodacoes, #traje {
     display: inline-block;
     height: auto;
-    margin: 0 155px;
     vertical-align: top;
     margin-top: 10px;
     text-align: center;
+    margin: 0 40px;
+  }
+
+  #chacara {
+    margin-right: 0px;
+    margin-left: 100px;
+  }
+
+
+  #acomodacoes {
+
+    margin-left: 110px;
+    margin-right: 80px;
   }
   #iconmap, #iconhotel,#icontraje {
     display: inline-block;
     height: 200px;
     width: 200px;
     max-height: 200px;
-    margin: 0 180px;
+    margin: 0 132px;
     margin-top: 0px;
     vertical-align: top;
   }
 
-  #chacara {
-    margin-right: 110px;
-    margin-left: 210px;
+  #iconmap {
+    position: relative;
+    top: -10px;
   }
-  #traje{
-    margin-left: 120px;
+  #icontraje {
+    position: relative;
+    right: 70px;
+    top: 30px;
   }
 
-  #icontraje {
-    margin-top: 40px;
-    margin-right: 290px;
-    margin-left: 150px;
-  }
-  #iconmap{
-    margin-top: 0px;
-    margin-left: 200px;
-    margin-right:130px;
-  }
-  #iconhotel {
-    margin-left: 230px;
-  }
 
   #icons {
     margin: 0 auto;
     padding-top: 0;
     padding-bottom: 0;
     text-align: center;
-    margin-right: 20px;
   }
   #icons img {
     margin-top: 50px;
@@ -363,10 +366,8 @@ figure {
   }
 
   #imagem-agenda {
-    display: block; 
-    margin: 0 auto; 
-    width: 300px; 
-    height: auto;
+    position: relative;
+    right: 40px;
   }
 
   #imginfo {
@@ -378,7 +379,8 @@ figure {
     clip-path: circle(65%);
   }
   #imgscasamento {
-    margin-left: 65px;
+    position: relative;
+    right: 30px;
   }
 
   #containerimg {
@@ -386,14 +388,14 @@ figure {
   }
 
   #informacoes {
-    margin-left: 0;
-    margin-right: 0;
+    position: relative;
+    right: -5px;
   }
 
   #chacara, #acomodacoes, #traje {
     display: inline-block;
     height: auto;
-    margin: 0 12px;
+    margin: 0 9px;
     vertical-align: top;
     margin-top: 10px;
     text-align: center;
@@ -416,11 +418,44 @@ figure {
   }
 
   #iconmap {
-    margin-left: 50px;
+    margin-left: 60px;
     position: relative;
     top: -5px;
   }
 
+  #agenda-eventos {
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+    margin: 200px auto 0 auto; 
+    max-width: 80%; 
+    text-align: left;
+  }
+
+  .separar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 2px;
+    background-color:#204d3e;
+    width: 480px;
+  } 
+
+  .tamanho-normal {
+    font-size: 80px;
+
+  }
+  .tamanho-normal1 {
+    font-size: 80px;
+    position: relative;
+    right: -80px;
+    top: -80px;
+
+  }
+
+  #tamanho-menor {
+    font-size: 80px;
+    position: relative;
+  }
  
 
 
