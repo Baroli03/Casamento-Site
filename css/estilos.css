@@ -357,6 +357,73 @@ figure {
     margin-left: 0px;
   }
 
+  #imgscasamento {
+    margin-left: 0px;
+    
+  }
+
+  #imagem-agenda {
+    display: block; 
+    margin: 0 auto; 
+    width: 300px; 
+    height: auto;
+  }
+
+  #imginfo {
+    height: 220px;
+    width: 190px;
+    max-height:220px;
+    object-fit: cover;
+    object-position: bottom;
+    clip-path: circle(65%);
+  }
+  #imgscasamento {
+    margin-left: 65px;
+  }
+
+  #containerimg {
+    margin: 0 35px;
+  }
+
+  #informacoes {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #chacara, #acomodacoes, #traje {
+    display: inline-block;
+    height: auto;
+    margin: 0 12px;
+    vertical-align: top;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  
+  .titulo {
+    font-size: 30px;
+  }
+  
+  #iconmap, #iconhotel,#icontraje {
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    max-height: 120px;
+    margin: 0 85px;
+    margin-top: 0px;
+    vertical-align: top;
+  }
+
+  #iconmap {
+    margin-left: 50px;
+    position: relative;
+    top: -5px;
+  }
+
+ 
+
+
 } 
 
 /* Celulares: abaixo de 768px */
