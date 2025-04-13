@@ -17,6 +17,7 @@
   body {
     margin: 0;
     padding: 0;
+    margin-bottom: 300px;
     
   }
 
@@ -45,7 +46,7 @@
   margin-right: 10%;
   }
 
-  main h1{
+  header h1{
     text-align: center;
     font-size: 100px;
   }
@@ -348,6 +349,67 @@ figure {
   text-align: center;
   font-size: 100px;
 }
+
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #2980b9;
+}
+
+
+.img-presente {
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin: 150px auto 0 auto;
+}
+
+
+form {
+  text-align: center;
+}
+
+button {
+  background-color:#45866e;
+  color:white;
+  border-radius: 20%;
+}
+
+
+#escolher {
+  text-align: center;
+  font-size: 30px;
+
+}
+
+#descricoes {
+  text-align: center;
+}
+
+#Login {
+  text-align: center;
+}
+
+
+#logar , #cadastrar{
+  display: inline-block;
+  margin: auto 100px;
+  margin-bottom: 300px;
+  border: 2px solid black;
+  height: 300px;
+  width: 300px;
+}
+
 
 
 /* Telas médias/pequenas: entre 768px e 1499px */

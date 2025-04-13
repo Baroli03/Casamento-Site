@@ -8,17 +8,8 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <section id="cabecalho">
-          <img id="logo" src="img/logo.png" alt="Logo Larissa e Hebrom" />
-        </section>
-      </header>
+      <?php include 'header.php'; ?>
       <main class="tenor">
-        <h1>
-          <span class="tenor"><span  class = "Great-Vibes inicial">L</span>ARISSA</span> <br>
-          <span id="and" class = "Great-Vibes">and</span>
-          <span class="tenor"><span class = "Great-Vibes inicial" >H</span>EBROM</span>
-        </h1>
         <p>PARA NOSSA CELEBRAÇÃO DE CASAMENTO</p>
 
         <div id="local">
@@ -206,10 +197,15 @@
             /></span>
           </article>
         </section>
+
         <section id="lista-presentes">
-          <span class="tenor">Lista <br></span>
+              <span class="tenor">Lista <br></span>
               <span class = "Great-Vibes">de</span>
               <span class="tenor">Presentes</span>
+
+              <div id="lista">
+                <a href="lista.php" class="botao">Ir para outra página</a>
+              </div>
         </section>
       </main>
       <footer></footer>
