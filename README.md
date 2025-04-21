@@ -44,7 +44,7 @@
     cd C:\xampp\htdocs
     
     # Passo 3: Clone o repositório
-    git clone https://github.com/Baroli03/Projeto_PHP_Casamento.git
+    git clone https://github.com/Baroli03/Casamento-Site.git
     
     # Passo 4: Acesse o diretório do projeto
     cd Projeto_PHP_Casamento
